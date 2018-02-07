@@ -125,7 +125,7 @@ target_names_excludes = version_attributes | discovery_auth_attributes
 
 class _BaseFabricModule(CFSNode):
     '''
-    Abstract Base clase for Fabric Modules.
+    Abstract Base class for Fabric Modules.
     It can load modules, provide information about them and
     handle the configfs housekeeping. After instantiation, whether or
     not the fabric module is loaded depends on if a method requiring
